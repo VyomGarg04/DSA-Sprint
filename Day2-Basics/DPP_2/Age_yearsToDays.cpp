@@ -10,5 +10,4 @@ int main(){
     cout<<"Enter your age in years : ";
     cin>>year;
     cout<<"Your age in days is :"<<year*365;
-
 }
