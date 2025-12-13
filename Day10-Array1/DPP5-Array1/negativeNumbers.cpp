@@ -12,7 +12,7 @@ int main(){
         cout<<"Enter element "<<i+1<<endl;
         cin>>arr[i];
     }
-    cout<<"The negative number =s in the array are";
+    cout<<"The negative number in the array are";
     for(int i=0;i<n;i++){
         if(arr[i]<0)
             cout<<arr[i]<<" ";
