@@ -19,20 +19,14 @@ int main() {
     }
     cout << endl;
 
-    int arr2[n],arr3[n];
+    int arr2[n];
     for(int i=0;i<n;i++){
-        arr3[i]=arr[i];
+        arr2[i]=arr[i];
     }
     
-    
-    // int j=0;
-    // for(int i=n-1;i>=0;i--){
-    //     arr2[j]=arr[i];
-    //     j++;
-    // }
     int count=0;
     for(int i=0;i<n;i++){
-        if(arr[i]==arr3[n-i-1])
+        if(arr[i]==arr2[n-i-1])
             count++;
     }
     if(count == n)cout<<"Palindrome Array";
