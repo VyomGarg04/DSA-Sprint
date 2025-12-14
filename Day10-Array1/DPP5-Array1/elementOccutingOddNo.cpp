@@ -19,7 +19,9 @@ int main() {
     }
     cout << endl;
 
-    bool visited[n] = {false}; //we have to form a bool array to store if the element is visited or not
+    bool visited[n] = {false}; 
+    //we have to form a bool array to store if the
+    // element is visited or not
     int oddCount = 0;
 
     for (int i = 0; i < n; i++) {
@@ -29,7 +31,8 @@ int main() {
         for (int j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
                 frequency++;
-                visited[j] = true; //setting value true as this element has already been visited and we do not need to visit it again
+                visited[j] = true; 
+                //setting value true as this element has already been visited and we do not need to visit it again
             }
         }
 
