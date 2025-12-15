@@ -11,7 +11,5 @@ int main() {
     v.push_back(40);
 
     cout<<v[0];
-    
-    
 
 }
