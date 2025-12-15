@@ -18,10 +18,6 @@ void disp(int arr[], int size) {
 int main() {
     int arr[] = {2, 4, 6, 8, 10};
     int size = sizeof(arr) / sizeof(arr[0]);
-
     disp(arr, size);
-
     sum(arr, size);
-    
-    return 0;
 }
