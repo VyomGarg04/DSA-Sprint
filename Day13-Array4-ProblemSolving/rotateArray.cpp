@@ -24,6 +24,7 @@ int main(){
     int size;
     cin>>size;
     vector<int> v;
+    cout<<"Enter the array elements"<<endl;
     for(int i=0;i<size;i++){
         int e;
         cin>>e;
@@ -39,12 +40,16 @@ int main(){
     cin>>k;
     
     int n = v.size();
+    
+    // if(k>n) k = k-n;
+    k %= n;
     rotate(n-k,n-1,v);
     rotate(0,n-k-1,v);
     rotate(0,n-1,v);
-
     cout<<"After rotating : "<<endl;
     display(v);
+    
+
     
     
     
