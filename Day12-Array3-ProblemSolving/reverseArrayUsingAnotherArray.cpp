@@ -3,8 +3,15 @@
 #include<algorithm>
 using namespace std;
 
-vector<int> rev(vector<int> &v1,int size){
-
+void rev(vector<int> &v1){
+    vector<int> v2(v1.size());
+    for(int i=0;i<v1.size();i++){
+        v2[i]=v1[v1.size()-i-1];
+    }
+    cout<<"Reversed array : ";
+    for(int i=0;i<v2.size();i++){
+        cout<<v2[i]<<" ";
+    }
 }
 
 
@@ -19,14 +26,5 @@ int main(){
         v.push_back(e);
     }
 
-    int target;
-    cout<<"Enter your Target : ";
-    cin>>target;
-
-    for(int i=0;i<v.size()-1;i++){
-        for(int j=i+1;j<v.size();j++){
-            if(v[i]+v[j]==target)
-                cout<<i<<" "<<j;
-        }
-    }
+    rev(v);
 }
