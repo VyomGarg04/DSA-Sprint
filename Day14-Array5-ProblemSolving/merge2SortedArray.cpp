@@ -8,7 +8,7 @@ using namespace std;
 void funMerge(vector<int> &v1, int m, vector<int> &v2,int n){
     int i = 0, j= 0, k = 0,l=m+n;
     vector<int> v3(l);
-        while(k<l){
+        while(i<m && j<n){
             if(v1[i]<v2[j]){
                 v3[k]=v1[i];
                 i++;
@@ -25,7 +25,7 @@ void funMerge(vector<int> &v1, int m, vector<int> &v2,int n){
                     j++;
                 }
             }
-            if(j==n){
+            if(j==m){
                 while(i<n){
                     v3[k]=v1[i];
                     k++;
