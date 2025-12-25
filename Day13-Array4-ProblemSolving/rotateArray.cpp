@@ -10,7 +10,7 @@ void display(vector<int> &v){
     }
 }
 vector<int> rotate(int i,int j,vector<int> &v){
-    while(i<=j){
+    while(i<j){
         int temp = v[i];
         v[i]=v[j];
         v[j]=temp;
