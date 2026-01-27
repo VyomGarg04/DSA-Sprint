@@ -1,0 +1,4 @@
+Q. What happens if we forget to add a null character at the end of a character array?
+
+It represents that the character array is terminated here (it represents the end of a string)
+If we forget to put it the program can print garbage values or segmetation faults

@@ -1,0 +1,4 @@
+Q. How is a character array different from a string (string class)?
+
+The character array is not a predefined class while the string class is a predefined class in cpp
+the char array is terminated by the null char while there is no concept of it in the string

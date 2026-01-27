@@ -1,0 +1,5 @@
+Q. How many characters can be stored in this array?
+  
+    char name[10];
+    
+A total of 9 character including a null character(\0) can be stored in this character array
