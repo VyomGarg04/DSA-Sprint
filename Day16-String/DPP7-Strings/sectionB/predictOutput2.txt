@@ -1,0 +1,5 @@
+2. 
+char arr[20] = "Alpha Intern";
+cout << arr[5];
+
+OUTPUT = ' ' i.e. space character
