@@ -1,0 +1,5 @@
+Q. What is a character array in C++?
+
+
+A character in c++ is any alphabet from a-z or A-Z, any number from 0-9 or any special character like !,@,#,$,%,^,&,*,
+It is always enclused within single quotes -> ' ' 

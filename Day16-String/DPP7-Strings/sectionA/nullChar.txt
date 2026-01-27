@@ -1,0 +1,2 @@
+Q. Why do we need a null character ('\0') in a character array?
+
