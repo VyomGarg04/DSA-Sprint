@@ -1,4 +1,4 @@
-// 
+// 2. Write a program to count the length of a character array without using strlen()
 
 #include <iostream>
 using namespace std;
