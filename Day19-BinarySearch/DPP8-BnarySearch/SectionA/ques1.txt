@@ -1,0 +1,9 @@
+Q. Suppose you are given an unsorted array and are allowed to perform only one operation before applying binary search. What would that operation be, and how would it affect overall complexity?
+
+The first step should be to sort the array, becauuse without sorting binary search could not work.
+
+Effect on the Time Complexity:  
+        TC of Binary search = O(log n)
+        TC of sorting = O(n log n)--generally
+
+        so the time complexity would become O(n log n)
