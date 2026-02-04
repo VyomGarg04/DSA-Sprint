@@ -1,0 +1,6 @@
+Q. Why is binary search preferred over linear search for very large datasets, but not always for very small datasets?
+
+The Binary search is preferred over the linear search for very large data sets as its time complexity[O(log n)] is much less then the TC of linear search[O(n)] which significanty reduces the number of iterations to be performed and hence the total time taken 
+
+
+But in small data sets linear search is better as we do not need to sort the array as in the case of binary search as this instead of reducing the total time, increases it.

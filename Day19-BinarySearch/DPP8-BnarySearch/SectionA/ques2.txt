@@ -1,0 +1,4 @@
+Q.  Consider an array where all elements are **unique**.
+    Do first occurrence and last occurrence still make sense? Explain why or why not.
+
+    The first and the last index would not be of much use but it can tell us if the element is present in the array or not
