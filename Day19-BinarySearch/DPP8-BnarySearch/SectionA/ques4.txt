@@ -1,0 +1,9 @@
+Q. Can binary search be applied to data types other than integers (for example, characters or strings)? Explain with reasoning.
+
+Yes, the binary searchcan be applied to other data types except integers 
+
+-- in character we can compare them on the basis of their ASCII values
+-- in case of strings we can compare them lexicographically
+
+
+The only condition is that the array of any datatype must be in the sorted form
