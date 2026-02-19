@@ -1,0 +1,13 @@
+2. A student applies binary search on this array:
+    
+    {10, 3, 8, 6, 2}
+    
+    The code gives incorrect results.
+    
+    - Identify the mistake
+    - Suggest the fix
+
+
+In this there is an error that the array is in unsorted form. In binary search, before applying the operations the array should be in the sorted form.
+To fix this just sort the array elements.
+{2,3,6,8,10}
