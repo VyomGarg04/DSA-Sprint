@@ -1,0 +1,7 @@
+1. What is wrong with the following approach?
+    
+    int mid = (start + end) / 2;
+
+When we use this approach this can lead us to an error. like if a very large value of start and end comes then by adding them they will exceed from the range of the integer and hence led us to an error and will not give us the correct result.
+Therefore we should use:
+int mid = low + (high - low)/2;
